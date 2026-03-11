@@ -1,0 +1,43 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    
+
+char name[30];
+printf("여행지 이름:");
+// 화면출력f(서식)
+//숫자, "문자"
+scanf("%s", name);
+//키보드 입력받는 용
+//&-> 주소 의미 //문자열은 & 사용안함 -> 문자열명 자체가 주소이므로
+
+
+
+int day;
+printf("여행 일수 :");
+scanf("%d", &day);
+
+
+float money; printf("여행 경비:");
+scanf("%f", &money);
+
+
+char grade;
+printf("여행 등급(A,B,C 중 하나): ");
+scanf(" %с", &grade);
+//%C 앞에 공백 주는 이유는 엔터키를 상쇄하기 위해서
+
+
+printf("여행지:%s\n",name);
+printf("여행 일수:%d일\n",day);
+printf("여행 경비:%0.1f원\n",money);
+printf("여행 등급:%c",grade);
+
+
+
+
+
+
+    return 0;
+}
