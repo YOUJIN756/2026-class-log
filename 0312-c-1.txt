@@ -1,0 +1,54 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
+  Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+    
+#include <stdio.h>
+
+int main()
+{
+   int num;
+   
+   
+   while(1)
+   
+   {
+   printf("숫자를 입력하세요:");
+   scanf("%d", &num);
+   
+   
+     //참일 떄 반복, 0은 거짓(false), 1은 참(true)
+     //무한반복
+              
+              
+   
+   
+   if(num == 10)
+   {printf("정답입니다\n");
+    break; }
+   
+   else if(num > 10)
+   {printf("너무 높아요\n");}
+   
+   else
+   {printf("너무 낮아요\n");}
+   
+   
+   }
+   
+   
+   
+    return 0;
+}
+
+
+
+
+
+
+
+
